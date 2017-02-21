@@ -1,0 +1,322 @@
+html, body{
+	background-color: #d5d5d5;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	text-align: center;
+	overflow-x: initial;
+	z-index: 500;
+}
+
+
+
+img{
+	max-width: 100%;
+}
+
+#content-wrapper > hr{
+	width: 25%;
+}
+
+.container{
+	
+	margin: 0 auto;
+	height: 100%;
+}
+
+#page-wrapper {
+	background-image: url(../img//observatory.jpg);
+	background-size: 100% 100%;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	height: 75vh;
+	width: 100%;
+	box-shadow: 0 0 15vh rgba(0,0,0,0.5);
+}
+
+
+.page-navigation{
+	padding:  0;
+	margin: 0 auto;
+	background: rgba(35, 35, 38, 1);
+	width: 100%;
+	text-align: center;	
+	z-index: 2;
+	position: fixed;
+	
+}
+
+.page-navigation > ul{
+	max-width: 100%;
+	display: inline-block;
+	min-width: 100vw;
+}
+
+.page-navigation > ul > ul{
+	display: inline-block;
+	align-content: center;
+	padding: 0;
+	margin: 0;
+	margin-left: 0px;
+	max-width: 25vw;
+}
+
+.page-navigation > ul > ul > li {
+	
+	display: inline-block;
+	color: rgba(202, 202, 202, 1);
+	line-height: 100%;
+	padding: 3vh 1.5vw 3vh 1.5vw;
+}
+
+.page-navigation > ul > ul > li > a{
+	padding: 10px;
+	overflow: hidden;
+
+}
+
+#DR{
+	
+	padding: 1vw 1vh;
+	margin: 0;
+	padding: 0;
+}
+
+#SX{
+	padding: 1vw 1vh;
+	margin-left: -150px;
+	padding: 0;
+}
+
+#Falc {
+	margin: 0;
+	padding: 1vw 1vh;
+	border-right: 2px solid rgb(202, 202, 202);
+	border-left: 2px solid rgb(202, 202, 202);
+}
+
+#content-wrapper {
+	margin-top: 10vh;
+	width: 70%;
+	margin-left: 15%;
+	text-align: center;
+}
+
+ h1{
+	font-size: 75px;
+	
+}
+p{
+	font-size: 30px
+}
+
+hr{
+	width: 50%;
+	margin-top: 10px;
+}
+
+#AboutSX {
+	padding-top: 10%;
+}
+
+#AboutSX > img{
+	margin-top: 50px;
+	width: 50vw;
+	border-radius: 50%;
+	box-shadow: 100px 20px 10vw rgba(0,0,0,0.9);
+}
+
+#Content {
+	margin-top: 150px;
+}
+
+
+
+
+#Falcon9 {
+	padding-top: 10%;
+}
+
+
+
+#Falcon9 > img{
+	margin-top: 50px;
+	width: 50vw;
+	border-radius: 150px;
+	box-shadow: 50px 50px 10vw rgba(0,0,15,0.9);
+}
+
+#Content {
+	margin-top: 150px
+}
+
+
+#FalconHeavy {
+	padding-top: 10%;
+}
+
+#FalconHeavy > img {
+	margin-top: 50px;
+	width: 50vw;
+	border-radius: 10px;
+	box-shadow: 50px 50px 10vw rgba(20,20,20,0.7);
+}
+
+#Dragon {
+	padding-top: 10%;
+}
+
+#Dragon > img{
+	margin-top: 50px;
+	width: 50vw;
+	border-radius: 0 0 0 100%;
+	box-shadow: 60px 40px 10vw rgba(10,10,15,0.8);
+}
+
+.page-navigation > ul > ul > li > a:hover{
+	border-radius: 25px;
+	color: rgba(35, 35, 38, 1);
+	background: rgba(252, 252, 252, 0.75);
+	cursor: pointer;
+	transition: 2s background-color;
+}
+
+.page-navigation > ul > ul > li > a{
+	color: rgba(195,195,195,0.9)
+}
+
+
+a{
+	text-decoration: none;
+	
+}
+
+#main-menu {
+	margin: 0 auto;
+	height: 10vh;
+	width: 50%;
+}
+
+#main-menu ul{
+	height: 10vh;
+	margin: 0;
+	padding: 0;
+	line-height: 10vh;
+	text-align: center;
+	overflow: hidden;
+}
+#main-menu ul li{
+	padding: 0 5%;
+	display: inline-block;
+	position: relative;
+	line-height: 100%;
+}
+
+#main-menu > ul > li > a{
+	text-decoration: none;
+	color: #007;
+	line-height: 10vh;
+	font-size: 2vw;
+	position: relative;
+	z-index: 1;
+	margin: 0;
+	padding: 0;
+}
+
+
+#main-menu > ul > li > a:hover{
+	color: #616968;
+	
+}
+
+#main-menu > ul > li > a::before{
+	content: " ";
+	position: absolute;
+	transition: 1.75s background-color;
+	width: 200%;
+	height: 350px;
+	
+	left: -50%;
+	top: -150px;
+	opacity: 0;
+	z-index: -1;
+	
+}
+
+#das {
+	margin-left: 5px;
+}
+
+#as{
+	margin-left: -7px;
+}
+
+#main-menu > ul > li > a:hover:before{
+	opacity: 1;
+	background-color: rgba(255, 255, 255, 1);
+}
+
+
+@media screen and (min-width: 750px) {
+	.page-navigation > ul > ul > li {
+	font-size: 3vh;
+	}
+	
+	
+	
+}
+
+@media screen and (max-width: 750px) {
+   .page-navigation > ul > ul > li {
+		font-size: 4vw;
+	}
+	
+	#page-wrapper {
+		background-size: 100% 100%;
+		height: 360px
+	}	
+	
+	#main-menu {
+	border-radius: 0;
+		width: 100%;
+	}
+	
+	#main-menu {
+	margin-left: 0;
+	}
+	
+	
+	
+	#main-menu > ul > li{
+		padding: 0 5%;
+		margin: 0 -1px;
+	}
+	
+	#main-menu > ul > li > a{
+		font-size: 15px;
+		
+	}
+	
+	.page-navigation {
+		position: relative;
+	}
+	
+	#SX {
+	margin: 0;
+}
+	
+	h1{
+		font-size: 35px;
+	}
+	p{
+		20px;
+	}
+	
+}
+
+@media screen and (max-width: 1502px){
+	#AboutSX, #Falcon9, #FalconHeavy, #Dragon {
+		padding-top: 20%;
+}
+
+}

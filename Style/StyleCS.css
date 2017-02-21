@@ -1,0 +1,272 @@
+body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x: initial;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color: black
+}
+
+a:hover{
+	color: cadetblue
+}
+
+p{
+	font-size: 35px;
+}
+
+#page-space {
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#spaceMainMapp > p ,#spaceSecondaryMap > p {
+	font-size: 3vw;
+}
+
+#page-space > h1{
+	text-align: center;
+	margin: 0 auto;
+	font-size: 80px;
+}
+
+#spaceMainMapp {
+	float: left;
+	width: 45%;
+	margin: 0;
+	margin-left: 3%;
+}
+
+#spaceSecondaryMap {
+	float: right;
+	width: 45%;
+	margin: 0;
+	margin-right: 3%;
+}
+#spaceMail {
+	display: inline-block;
+	margin-top: 3%;
+}
+
+#spaceMail > p{
+	float: left;
+	
+}
+
+hr{
+	width: 75%;
+	margin-top: 2%;
+	border: none; /* Убираем границу для браузера Firefox */
+    color: blueviolet; /* Цвет линии для остальных браузеров */
+    background-color: rgba(40, 20,95, 1); /* Цвет линии для браузера Firefox и Opera */
+    height: 2px;
+}
+
+hr:nth-of-type(2){
+	width: 75%;
+	margin-top: 2%;
+	border: none; /* Убираем границу для браузера Firefox */
+    color: blueviolet; /* Цвет линии для остальных браузеров */
+    background-color: rgba(0, 130,250, 0.7); /* Цвет линии для браузера Firefox и Opera */
+    height: 2px;
+}
+
+hr:nth-of-type(3){
+	width: 75%;
+	margin-top: 2%;
+	border: none; /* Убираем границу для браузера Firefox */
+    color: blueviolet; /* Цвет линии для остальных браузеров */
+    background-color: rgba(0, 230,70, 0.7); /* Цвет линии для браузера Firefox и Opera */
+    height: 2px;
+}
+
+hr:nth-of-type(4){
+	width: 75%;
+	margin-top: 2%;
+	border: none; /* Убираем границу для браузера Firefox */
+    color: blueviolet; /* Цвет линии для остальных браузеров */
+    background-color: rgba(90, 70,90, 0.7); /* Цвет линии для браузера Firefox и Opera */
+    height: 2px;
+}
+
+hr:nth-of-type(5){
+	width: 75%;
+	margin-top: 2%;
+	border: none; /* Убираем границу для браузера Firefox */
+    color: blueviolet; /* Цвет линии для остальных браузеров */
+    background-color: rgba(75, 7, 150, 0.6); /* Цвет линии для браузера Firefox и Opera */
+    height: 2px;	
+}
+
+#pageSolar {
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	padding: 5% 0 0 0;
+}
+
+#pageSolar > h1{
+	text-align: center;
+	margin: 0 auto;
+	font-size: 80px;
+	
+}
+
+
+#sanMateo {
+	float: left;
+	width: 45%;
+	margin-left: 3%;
+	padding-right: 2%;
+	padding-bottom: 5%;
+}
+
+#lasVegas {
+	float: right;
+	width: 45%;
+	margin-right: 3%;
+	padding-left: 2%;
+	padding-bottom: 5%;
+}
+
+#sanMateo > p,#lasVegas > p,#roseville > p {
+	font-size: 2.5vw;
+}
+
+#roseville {
+	margin-top: 5%;
+	width: 50%;
+	
+	text-align: center;
+	margin: 0 auto;
+}
+
+#solarMail {
+	margin-top: 5%;
+	display: inline-block
+}
+
+#solarMail > p{
+	float: left;
+}
+
+#hiperLoop{
+	margin: 0 auto;
+}
+
+#pageSolar:nth-of-type(2) {
+	text-align: center;
+	
+}
+
+#teslaCont {
+	margin: 0 auto;
+	width: 35%;
+	text-align: left;
+}
+
+h4 {
+	font-size: 50px;
+}
+
+ul li{
+	display: inline-block;
+	
+}
+
+a{
+	text-decoration: none;
+}
+
+#main-menu {
+	margin: 0 auto;
+	height: 100px;
+	width: 50vw;
+	background-color: dimgrey;
+	overflow: hidden;
+}
+
+#main-menu ul{
+	height: 100px;
+	margin: 0;
+	padding: 0;
+	line-height: 100%;
+	text-align: center;
+	overflow: hidden;
+}
+#main-menu ul li{
+	padding: 0 5%;
+	display: inline-block;
+	position: relative;
+	line-height: 100%;
+}
+
+#main-menu > ul > li > a{
+	text-decoration: none;
+	color: #fff;
+	line-height: 100px;
+	font-size: 2vw;
+	position: relative;
+	z-index: 1;
+}
+
+
+#main-menu > ul > li > a:hover{
+	color: #616968;
+	
+}
+
+#main-menu > ul > li > a:before{
+	content: " ";
+	position: absolute;
+	transition: 1.75s background-color;
+	width: 200%;
+	height: 350px;
+	left: -50%;
+	top: -150px;
+	opacity: 0;
+	z-index: -1;
+	
+}
+
+
+
+#das {
+	margin-left: 5px;
+}
+
+
+#as{
+	margin-left: -7px;
+}
+
+#main-menu > ul > li > a:hover:before{
+	opacity: 1;
+	background-color: rgba(255, 255, 255, 1);
+}
+
+@media screen and (max-width: 750px){
+	#main-menu {
+		border-radius: 0;
+		width: 100%
+				
+}
+	#main-menu > ul > li{
+	margin: 0
+}
+	
+	#main-menu > ul > li > a{
+		padding: 0 10%;
+		font-size: 2.75vw
+}
+}
