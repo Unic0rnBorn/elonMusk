@@ -294,7 +294,7 @@ a{
 	background-color: rgba(255, 255, 255, 1);
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 19cm) {
 	.page-navigation > ul > ul > li {
 	font-size: 3vh;
 	}
@@ -303,7 +303,7 @@ a{
 	
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 19cm) {
    .page-navigation > ul > ul > li {
 		font-size: 4vw;
 	}
@@ -347,7 +347,14 @@ a{
 	
 }
 
-@media screen and (max-width: 1485px){
+@media screen and (max-width: 26cm){
+	#page-wrapper {
+		background-size: 100% 100%;
+		align-items: stretch
+	}	
+}
+
+@media screen and (max-width: 39cm){
 	#Zip2, #PayPal, #SolarCity, #HyperLoop, #OpenAI, #teslaMotors {
 		padding-top: 20%;
 }

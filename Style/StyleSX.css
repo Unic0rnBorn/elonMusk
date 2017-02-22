@@ -257,7 +257,7 @@ a{
 }
 
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 19.5cm) {
 	.page-navigation > ul > ul > li {
 	font-size: 3vh;
 	}
@@ -266,9 +266,13 @@ a{
 	
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 19.5cm) {
    .page-navigation > ul > ul > li {
 		font-size: 4vw;
+	}
+	
+	.page-navigation > ul   {
+		margin-left: -20%;
 	}
 	
 	#page-wrapper {
@@ -314,7 +318,7 @@ a{
 	
 }
 
-@media screen and (max-width: 1502px){
+@media screen and (max-width: 40cm){
 	#AboutSX, #Falcon9, #FalconHeavy, #Dragon {
 		padding-top: 20%;
 }

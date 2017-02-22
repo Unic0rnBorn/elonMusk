@@ -218,7 +218,7 @@ margin-bottom: 1%;;
 	clear: both;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 19cm) {
 	#main-menu {
 		border-radius: 0;
 		width: 100%
@@ -241,10 +241,15 @@ margin-bottom: 1%;;
 	#sidebar > p{
 	font-size: 15px;
 }
-
+#support-menu > ul > li > a{
+	padding: 4px 8px;
+	color: rgba(252, 252, 252, 1);
+	line-height: 100%;
+	font-size: 15px;
+}
 }
 
-@media screen and (max-width: 1340px){
+@media screen and (max-width: 33cm){
 	#page-wrapper {
 	background-size: auto 100%;
 }
